@@ -1,0 +1,6 @@
+1. If we look at our new structure we have 3 tree instead of 1 tree. And if we multpily our original time complexity with a constant number
+we get the same result O(LogN)
+
+2. When we add a new node we have to look each min B tree's standar deviation(keys) that is O(N), and adding a node to the B-Tree's time complexity is O(LogN), 
+therefore for this structure if we combine this O(N) and O(LogN) we can find our time complexity for add operation. Our time complexity is O(NLogN).
+
